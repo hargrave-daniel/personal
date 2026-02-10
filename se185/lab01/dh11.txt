@@ -1,0 +1,5 @@
+s
+Value before input: 0
+
+Type a number: Type your NetID: 
+Your input was 7 and your ISU email is dh11@iastate.edu
