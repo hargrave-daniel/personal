@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1 {
+            text-align: center;
+            color: gray;
+            text-transform: uppercase;
+        }
+        h2 {
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+        p {
+            text-align: justify;
+            line-height: 1.6;
+            font-family: 'Roboto', sanse-serif;
+        }
+        .abilities {
+            font-weight: bold;
+            padding: 5px;
+            background-color: rgb(222, 184, 184);
+        }
+        .bio {
+            font-style: italic;
+            margin-top: 10px; 
+        }
+        .superhero-title {
+            background-color: rgb(33, 41, 139);
+        }
+        #wonder-woman {
+            border: 2px solid rgb(9, 0, 0);
+            font-size: 1.8em;
+        }
+        #spider-man {
+            border: 2px solid rgb(0, 10, 0);
+            text-shadow: 2px 2px 5px gray;
+        }
+        #wonder-woman:hover {
+            border: 6px solid rgb(9, 0, 0);
+            font-size: 1.8em;
+        }
+        #spider-man:hover {
+            border: 6px solid rgb(0, 10, 0);
+            text-shadow: 2px 2px 5px gray;
+        }
+        .details-btn {
+            background-color: orange;
+            border-radius: 12px;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            cursor: pointer;
+        }
+        .details-btn:hover {
+            background-color: darkorange;
+        }
+    </style>
+    <title>Activity02</title>
+</head>
+<body>
+    <p>
+        Author: Daniel Hargrave<br>
+        email : dh11@iastate.edu<br>
+        Date : January 27th, 2025
+    </p>
+
+    <div>
+        <h1>Superhero Profiles</h1>
+        <h2 class="superhero-title" id="wonder-woman">Hero 1: Wonder Woman</h2>
+        <p class="abilities">Abilities: Super strength, Flight, Combat skills</p>
+        <p class="bio">Wonder Woman is a member of the Justice League</p>
+        <button class="details-btn">See More Details</button>
+
+        <h2 class="superhero-title" id="spider-man">Hero 2: Spider-Man</h2>
+        <p class="abilities">Abilities: Wall climbing, Spider-sense, Super agility</p>
+        <p class="bio">Spider-Man is a neighborhood-friendly superhero from Queens</p>
+        <button class="details-btn">See More Details</button> 
+    </div>
+</body>
+</html>
